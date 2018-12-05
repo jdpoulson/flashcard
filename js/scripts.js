@@ -1,4 +1,21 @@
 $(document).ready(function() {
+
+  $(".languagebutton").click(function() {
+    $(".languageQ").hide();
+    $(".addressQ").show();
+  });
+  $(".addressbutton").click(function() {
+    $(".addressQ").hide();
+    $(".foodQ").show();
+  });
+  $(".foodbutton").click(function() {
+    $(".foodQ").hide();
+    $(".workQ").show();
+  });
+  $(".workbutton").click(function() {
+    $(".workQ").hide();
+    $(".movieQ").show();
+  });
   $("form#javascript").submit(function(event) {
     event.preventDefault();
     var number1 = parseInt($("#language").val());

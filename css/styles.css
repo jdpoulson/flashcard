@@ -1,4 +1,4 @@
-.confirmation, .confirmation2, .confirmation3{
+.confirmation, .confirmation2, .confirmation3 {
   display: none
 }
 h1 {
@@ -12,4 +12,7 @@ body {
 p {
   color: darkblue;
   text-align: center;
+}
+.workQ, .foodQ, .addressQ, .movieQ {
+  display: none;
 }
