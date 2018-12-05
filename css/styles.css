@@ -1,0 +1,15 @@
+.confirmation, .confirmation2, .confirmation3{
+  display: none
+}
+h1 {
+  color: grey;
+  text-align: center;
+}
+body {
+  background-color: skyblue;
+  padding: 50px;
+}
+p {
+  color: darkblue;
+  text-align: center;
+}
