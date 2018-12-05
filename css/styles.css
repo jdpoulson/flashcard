@@ -4,6 +4,12 @@
 h1 {
   color: grey;
   text-align: center;
+  width: 713px;
+}
+h2 {
+  text-align: center;
+  color: violet;
+  width: 229px;
 }
 body {
   background-color: skyblue;
@@ -12,7 +18,12 @@ body {
 p {
   color: darkblue;
   text-align: center;
+  width: 200px;
 }
 .workQ, .foodQ, .addressQ, .movieQ {
   display: none;
+  color: purple;
+}
+.languageQ {
+  color: purple;
 }
